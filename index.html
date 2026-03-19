@@ -3,21 +3,101 @@
 <head>
 <meta charset="UTF-8">
 <title>Trang cá nhân - Hồng Anh</title>
-<link rel="stylesheet" href="CSS.html">
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #ffe6f0;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #ff99cc;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-top: 5px;
+}
+
+/* Nội dung chính */
+main {
+    padding: 20px;
+}
+
+/* Ảnh đại diện (đã chỉnh responsive) */
+.profile-img {
+    width: 40vw;
+    max-width: 180px;
+    min-width: 100px;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto;
+    border: 3px solid #ff66a3;
+}
+
+/* Châm ngôn */
+.slogan {
+    background-color: #ffd6e8;
+    padding: 10px;
+    border-left: 5px solid #ff66a3;
+    margin: 15px 0;
+    border-radius: 8px;
+}
+
+/* Gallery ảnh */
+.gallery {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #ff99cc;
+}
+
+/* Cảm nghĩ */
+.feeling {
+    background-color: #fff0f5;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+/* Tiêu đề */
+h1, h2 {
+    color: #cc0066;
+}
+</style>
+
 </head>
 
 <body>
 
 <header>
 <h1>Trang cá nhân</h1>
-<a href="../index.html">← Quay lại trang chủ</a>
+<a href="index.html">← Quay lại trang chủ</a>
 </header>
 
 <main>
 
 <h2>Giới thiệu</h2>
 
-<img src="649591927_2139432450224237_7629460793930486482_n.jpg" class="profile-img">
+<img src="../images/honganh.jpg" class="profile-img">
 
 <p><strong>Họ tên:</strong> Nguyễn Hồng Anh</p>
 <p><strong>Biệt danh:</strong> Hồng / Anh</p>
